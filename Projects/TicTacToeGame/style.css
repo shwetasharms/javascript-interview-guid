@@ -1,40 +1,33 @@
-/* .container{
-    border: 1px solid black;
-    height: 500px;
-    align-content: center;
-}
-.grid{
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-    margin: auto;
-    
-}
-.row{
-    border-bottom: 1px solid black;
-    height: 100px;
-    width: 100%;
-} */
+
 h1#pra1{
     color: red;
 }
 .container{
-    /* background-color: gainsboro; */
-    border: 1px solid blue;
-    /* background-position: center ;
-    background-attachment: scroll; */
-    height: 200px;
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
-    /* padding: 20px; */
 }
-.bgImage{
-    background-image: url("data:image/jpeg;base64,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");
-    object-fit:  cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
 
-
-
+.col{
+    border-radius: 10px;
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    display: flex;
+   
+}
+.col:hover{
+    background-color:rgb(132, 205, 250);
+}
+.text{
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+    color: blue;
 }
