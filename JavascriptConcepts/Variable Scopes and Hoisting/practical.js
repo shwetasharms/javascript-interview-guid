@@ -1,0 +1,1 @@
+// Provide examples where hoisting impacts the code execution.

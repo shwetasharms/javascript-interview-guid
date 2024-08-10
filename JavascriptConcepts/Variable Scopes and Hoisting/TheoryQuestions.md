@@ -1,0 +1,3 @@
+## Explain the difference between var, let, and const in JavaScript. How does hoisting affect these declarations?
+### Ques 1 - var is function-scoped and can be re-declared and updated. Variables declared with var are hoisted to the top of their scope but initialized with undefined.
+### Ans -1  let and const are block-scoped. let can be updated but not re-declared in the same scope. const cannot be updated or re-declared; it must be initialized at the time of declaration. Both let and const are hoisted to the top of their block but are not initialized, resulting in a ReferenceError if accessed before their declaration (temporal dead zone).

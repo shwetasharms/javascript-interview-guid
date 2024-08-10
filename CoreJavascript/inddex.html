@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="grandparent">
+            <h1>Grandparent</h1>
+            <div id="parent">
+                <h2>Parent</h1>
+        <div id="child">
+            <h3>Childd</h3>
+        </div>
+            </div>
+
+
+        </div>
+        <script>
+            const grandparent= document.getElementById("grandparent")
+            const parent= document.getElementById("parent")
+            const child= document.getElementById("child")
+
+            grandparent.addEventListener("click", function(){
+                console.log("Grandparent Div called")
+            })
+            parent.addEventListener("click", function(){
+                console.log("parent Div called")
+                event.stopPropagation();
+            })
+            child.addEventListener("click", function(){
+                console.log("child Div called")
+            })
+        </script>
+    </body>
+</html>

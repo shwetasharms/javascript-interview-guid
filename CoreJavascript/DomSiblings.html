@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+            <h2>Dom Siblings</h2>
+            <ul class="parent">
+                <li>item1</li>
+                <li>item2</li>
+                <li class="item3">item3</li>
+                <li class="item4">item4</li>
+                <li class="item3">item5</li>
+            </ul>
+        </div>
+    </body>
+
+    <script>
+
+        // fetch the previous child 
+        // let item=document.querySelector(".item3").previousElementSibling
+        // console.log(item)
+
+        // let siblings=document.querySelectorAll(".item3")
+        // console.log(siblings)
+
+        // siblings.forEach((element)=>console.log(element.previousElementSibling))
+
+//  Append Child 
+// let parentNode=document.querySelector(".parent")
+// let newElement=document.createElement("li")
+// newElement.textContent="new element added"
+// parentNode.appendChild(newElement)
+
+// Remove Child 
+// let parentNode= document.querySelector(".parent")
+// let getChild=document.querySelector(".item4")
+// parentNode.removeChild(getChild)
+
+// Replace Child 
+let child=document.querySelector(".item4")
+
+
+// Add EventListner
+const  element=document.getElementsByClassName("item4")
+element.addEventListener("click",function (){
+console.log("function is called")
+} );
+    </script>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+            <h2>Dom Siblings</h2>
+            <ul class="parent">
+                <li>item1</li>
+                <li>item2</li>
+                <li class="item3">item3</li>
+                <li class="item4">item4</li>
+                <li class="item3">item5</li>
+
+            </ul>
+            <p id="para" onclick="clickHandler()">
+
+            </p>
+        </div>
+    </body>
+    <script>
+let paragraph= document.getElementById("para")
+paragraph.innerHTML="This is the paragraph"
+ function clickHandler(){
+    document.getElementById("para").textContent="This is changed paragraph"
+    }
+    </script>
+    </html>
