@@ -1,0 +1,9 @@
+.star{
+   font-size: 50px;
+}
+.star:hover{
+    color: darkgoldenrod
+ }
+ .filled-star{
+    color: darkgoldenrod;
+ }
