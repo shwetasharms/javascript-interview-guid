@@ -9,7 +9,7 @@ This guide covers fundamental and advanced JavaScript concepts essential for mas
   - [Data Types](#data-types)
   - [Classes](#classes)
   - [Variables](#variables)
-  - [Functions](#functions)
+  - [Functions](https://github.com/shwetasharms/javascript-interview-guid/tree/main/JavascriptConcepts/Functions)
   - [this Keyword](#this-keyword)
   - [Arrow Functions](#arrow-functions)
   - [Loops](#loops)
