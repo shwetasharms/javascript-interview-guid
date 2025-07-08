@@ -39,27 +39,46 @@ console.log(x); // undefined
 var y = null;
 console.log(y); // null
 
+```
+### Q4: What is a Closure in JavaScript?
+Closures are functions that have access to variables from an outer function even after the outer function has finished execution.
+They remember the environment in which they were created.
 
-Q4- Clouser in Javascript 
-Ans - Clouser are the functionn that have access  to varibaled from n outer functionven after the outr function has finishe execution . They remember  the environment in which they were created 
-function outer(){
-var outerVar = "HEllo"
-function innner(){
-console.log(outerVar)
+javascript
+Copy
+Edit
+function outer() {
+    var outerVar = "Hello";
+    function inner() {
+        console.log(outerVar);
+    }
+    return inner;
 }
-return inner
-}
- var clouserFn= outer();
-clouserFn()
+
+var closureFn = outer();
+closureFn(); // Output: Hello
 
 
-Q5- Callback function in javascript 
-Q6- Promise in Javascript 
-Q7- SetTimeout() function in javascript
-Q8- Purpose of asyn await in javascript 
-Q9 - Why do we use word "debugger" in javascript 
-Ans- The word "debugger" is used in the Javascript  to refer to  tool that can be used to step throught avascript code line by line .
-This can be helpfull for debugging Javascipt code  which is e processf finding nd fixing the errors in the javascript 
+### Q5: What is a Callback Function in JavaScript?
+A callback function is a function passed as an argument to another function and is executed after the completion of that function.
+### Q6: What is a Promise in JavaScript?
+A Promise is an object representing the eventual completion or failure of an asynchronous operation.
+It has three states: Pending, Fulfilled, and Rejected.
+### Q7: What is setTimeout() in JavaScript?
+setTimeout() is a built-in function used to delay the execution of code by a specified number of milliseconds.
+
+javascript
+Copy
+Edit
+setTimeout(function () {
+    console.log("Executed after 2 seconds");
+}, 2000);
+### Q8: What is the purpose of async/await in JavaScript?
+async/await is syntax for writing asynchronous code that looks synchronous.
+It helps make asynchronous code easier to read and debug.
+### Q9: Why do we use the debugger keyword in JavaScript?
+The debugger keyword pauses the execution of JavaScript code and allows you to step through it line by line using debugging tools.
+It helps identify and fix errors more efficiently.
 Q10- What is the purpose of this keyword in javascript 
 Ans- This keyword refer  to the object  that is executing the current functionor methods 
 It alow access to the object property and methods  within the context of that object
