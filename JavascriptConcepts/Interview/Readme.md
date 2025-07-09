@@ -145,73 +145,48 @@ By using try...catch blocks, throw, and handling rejected Promises using .catch(
 
 ### Q24: Explain Event Bubbling and Event Capturing in JavaScript
 Event Bubbling: Event propagates from child to parent.
-
 Event Capturing: Event propagates from parent to child.
-
 You can control it using addEventListener(event, callback, useCapture).
 
-Q25: What is an Arrow Function in JavaScript?
-
+### Q25: What is an Arrow Function in JavaScript?
 Arrow functions are a concise way to write functions. They do not bind their own this.
-
 const add = (a, b) => a + b;
 
-Q26: What is the use of localStorage and sessionStorage?
-
+### Q26: What is the use of localStorage and sessionStorage?
 localStorage: Stores data with no expiration.
-
 sessionStorage: Stores data until the tab is closed.
 
-Q27: Difference between slice() and splice() in JavaScript?
-
+### Q27: Difference between slice() and splice() in JavaScript?
 slice(): Returns a portion of an array without modifying it.
-
 splice(): Modifies the array by adding/removing elements.
 
-Q28: Purpose of the reduce() function in JavaScript?
-
+### Q28: Purpose of the reduce() function in JavaScript?
 reduce() executes a reducer function on each array element to reduce it to a single value.
 
-Q29: What are the different events in JavaScript?
-
+### Q29: What are the different events in JavaScript?
 Examples include click, mouseover, keydown, submit, load, unload, etc.
 
-Q30: What are the different ways to access elements in JavaScript?
-
+### Q30: What are the different ways to access elements in JavaScript?
 document.getElementById()
-
 document.getElementsByClassName()
-
 document.querySelector()
-
 document.querySelectorAll()
 
-Q31: What is the scope of a variable in JavaScript?
-
+### Q31: What is the scope of a variable in JavaScript?
 Scope determines the accessibility of variables:
-
 Global Scope
-
 Function Scope
-
 Block Scope (with let/const)
 
-Q32: What are the different ways to create objects in JavaScript?
-
+### Q32: What are the different ways to create objects in JavaScript?
 Object literals
-
 new Object()
-
 Constructor functions
-
 Object.create()
-
 ES6 Classes
 
-Q33: What is the purpose of the window object in JavaScript?
-
+### Q33: What is the purpose of the window object in JavaScript?
 The window object represents the browser window and provides global functions, properties, and browser interaction.
 
-Q34: What is async/await in JavaScript?
-
+### Q34: What is async/await in JavaScript?
 async/await provides a way to work with asynchronous code that looks synchronous, making it easier to write and understand.
