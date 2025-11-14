@@ -1,3 +1,11 @@
+### Asynchronous Js Most Asked Interview Problems 
+#### Print Hello World with a delay of 3 sec
+#### Create a function which take a callback function and run it after 2 sec
+#### Print 1 to 10 using setTimeout with 1 sec of delay 
+#### Print 10 to 1 using setTimeout with 1 sec of delay 
+
+
+
 Q1- Write a function that check the string first character and last character are equal or not if it is equal then return true else return false
 ANs- function checkChars(s) {
     return (s.charAt(0) === s.charAt(s.length-1)) ? true : false
