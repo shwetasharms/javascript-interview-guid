@@ -1,6 +1,8 @@
 ### What are clousers ? Real-life example where you have implemented it in javascript
 
 Ans - Closures = a function + the variables it “remembers” from its outer scope even after that outer function has finished executing.
+
+```
 function createCounter() {
     let count = 0; // Private variable
     return function() {
@@ -13,7 +15,8 @@ const counter = createCounter();
 console.log(counter()); // 1
 console.log(counter()); // 2
 console.log(counter()); // 3
-
+```
+Real Life Example
 ```
 function createBankAccount(initialBalance) {
     let balance = initialBalance;
